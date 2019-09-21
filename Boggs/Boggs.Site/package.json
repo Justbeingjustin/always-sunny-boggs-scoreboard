@@ -1,0 +1,16 @@
+{
+  "name": "scribbler",
+  "version": "1.0.0",
+  "description": "Scribbler is a responsive HTML/CSS/Javascript template designed for developers who want to set up a small landing page and a documentation/usage page for their coding projects. It is developed with vanilla javascript and many great new CSS features, such as CSS variables and CSS grid. With performance and simplicity in mind, the template is built without any extra overhead of libraries and is easy to customize.",
+  "main": "scribbler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1"
+  }
+}
