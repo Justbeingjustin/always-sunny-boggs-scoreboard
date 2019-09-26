@@ -36,6 +36,10 @@
           </style>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework="></script>
+      
+    
+      
+
 
       <script>
 
@@ -79,7 +83,7 @@ var drinkPlayers=[];
 for (var r = 1; r <=playerNumber; r++) {
   drinkPlayers.push({
 		"name":document.getElementById("textboxName" +r).value,
-		"numberOfDrinks":document.getElementById("textboxDrinksConsumed" +r).value
+		"numberOfBeers":document.getElementById("textboxDrinksConsumed" +r).value
 		});
 }
 
@@ -208,6 +212,7 @@ console.log("test")
       </script>
   </head>
   <body>
+      	
     <nav>
       <div class="logo"></div>
       <ul class="menu">
@@ -218,6 +223,16 @@ console.log("test")
       </ul>
     </nav>
     <div class="hero">
+            <script type="text/javascript">
+	atOptions = {
+		'key' : 'e98b4bbbe1dcb5a54cc575504f5e2563',
+		'format' : 'iframe',
+		'height' : 90,
+		'width' : 728,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.bcloudhost.com/e98b4bbbe1dcb5a54cc575504f5e2563/invoke.js"></scr' + 'ipt>');
+</script>
       <h1 class="hero__title">Boggs Scoreboard</h1>
       <p class="hero__description">The only drinking scoreboard that you'll ever need</p>
     </div>
@@ -367,6 +382,7 @@ console.log("test")
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="scribbler.js"></script>
+
   </body>
     <script type="text/javascript" src="script.js"></script>
 </html>
