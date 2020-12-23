@@ -1,5 +1,6 @@
 # always-sunny-boggs-scoreboard
 https://medium.com/@justinshawngerber/beer-scoreboard-part-1-of-2-b58f9a3631aa
+
 https://medium.com/@justinshawngerber/beer-scoreboard-part-2-of-2-faedfc3c0858
 
 
